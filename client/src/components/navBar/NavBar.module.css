@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .sortSection{
+    width: 6rem;
+    padding-left: 4rem;  
+    padding-right: 4rem;
+}
+
+  .sortSection,
+  .filterSection {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .sortSection p,
+  .filterSection p {
+    margin-right: 10px;
+  }
+  
+  .sortSection select,
+  .filterSection select {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  .createButton,
+  .removeFilterButton {
+    margin-top: 10px;
+  }

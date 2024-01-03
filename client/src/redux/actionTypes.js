@@ -1,0 +1,11 @@
+export const GET_COUNTRY = "GET_COUNTRY";
+export const GET_COUNTRY_ID = "GET_COUNTRY_ID";
+export const GET_COUNTRY_NAME = "GET_COUNTRY_NAME";
+export const ADD_ACTIVITY = "ADD_ACTIVITY";
+export const GET_ACTIVITY = "GET_ACTIVITY";
+export const FILTER_ACTIVITY = "FILTER_ACTIVITY";
+export const RESET_FILTER = "RESET_FILTER";
+export const ORDER_NAME = "ORDER_NAME";
+export const ORDER_POPULATION = "ORDER_POPULATION";
+export const PAGINATE = "PAGINATE";
+    

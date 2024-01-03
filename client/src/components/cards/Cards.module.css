@@ -1,0 +1,14 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+   
+  }
+  
+  .cards {
+    width: calc(20% - 2rem); /* Calcula el ancho para que haya 5 tarjetas por fila con un espacio de 2rem entre ellas */
+    margin: 1rem; /* Espacio entre las tarjetas */
+  }

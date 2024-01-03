@@ -1,0 +1,66 @@
+.but {
+    padding: 0.1em 0.25em;
+    width: 13em;
+    height: 4.2em;
+    background-color: #212121;
+    border: 0.08em solid #fff;
+    border-radius: 0.3em;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .but .sp {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0.4em;
+    width: 8.25em;
+    height: 2.5em;
+    background-color: #212121;
+    border-radius: 0.2em;
+    font-size: 1.5em;
+    color: #fff;
+    border: 0.08em solid #fff;
+    box-shadow: 0 0.4em 0.1em 0.019em #fff;
+    
+  }
+  
+  .but .sp:hover {
+    transition: all 0.5s;
+    transform: translate(0, 0.4em);
+    box-shadow: 0 0 0 0 #fff;
+  }
+  
+  .but .sp:not(hover) {
+    transition: all 1s;
+  }
+  .tittleContent {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .Tittle {
+    margin: 0;
+  }
+  
+  .landingContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    overflow: hidden;
+    background-color: var(--color4);
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-top: 30px;
+  }
