@@ -19,7 +19,6 @@ export function getCountry() {
   try {
     return async function (dispatch) {
       let response = await axios.get(`${URL}/countries`);
-      console.log("paises: ", response);
       return dispatch({
         type: GET_COUNTRY,
         payload: response.data,

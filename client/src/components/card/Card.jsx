@@ -23,9 +23,13 @@ export const Card = ({ id, name, flags, region, subregion, capital, area, popula
       <div className={style.heading}>
         <p>Capital del Pais : {capital}</p>
         <p>Continente: {region}</p>
+        {isDetailPage && (
+        <div> 
         <p>sub-region : {subregion}</p>
         <p>Poblacion : {population}</p>
         <p>Area : {area}</p>
+        </div>
+        )}
        
       </div>
       <div className={style.contpadre}>
@@ -34,7 +38,6 @@ export const Card = ({ id, name, flags, region, subregion, capital, area, popula
            <div className={style.contt}>
           <ul className={style.contlista} >
             {Activities?.map((activity) => (
-              <div>
               <li key={activity.id} className={style.lista}>
               <h2>A c t i v i d a d </h2>  
                 <strong>Nombre:</strong> {activity.name}<br />
@@ -42,7 +45,6 @@ export const Card = ({ id, name, flags, region, subregion, capital, area, popula
                 <strong>Duración:</strong> {activity.duration} horas<br />
                 <strong>Temporada:</strong> {activity.season}<br />
               </li>
-              </div>
             ))}
           </ul>
           </div>

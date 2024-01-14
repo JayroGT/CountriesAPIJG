@@ -16,8 +16,6 @@ export const Detail = () => {
 useEffect(() => {
   dispatch(getCountryById(id));
 }, [dispatch, id]);
-console.log(id);
-console.log(countryDetails);
 
   return (
       <div>

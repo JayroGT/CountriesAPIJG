@@ -68,9 +68,9 @@
   width: 50vw;
   height: 15rem; 
   gap: 2rem;
-  justify-content: start;
+  /* justify-content: start;
   align-items: start;
-  align-content: start;
+  align-content: start; */
   list-style: none;
   margin-left: -15rem;
  

@@ -18,21 +18,9 @@
       background-color: #f0f0f0;
     }
   }
-  .pageNumber.active:active {
-    background-color: #fff; /* Cambia el color de fondo incluso después de presionar */
-    color: #000; /* Cambia el color del texto cuando está activo y presionado */
-  }
-  
-  .pageNumber:focus {
-    background-color: #fff; /* Cambiar el color de fondo cuando el botón está activo */
-  }
   
   .active {
     background-color: #3498db;
-    color: #fff;
-  }
-  .active:focus {
-    background-color: #a3a3a3;
     color: #fff;
   }
   
@@ -41,6 +29,7 @@
     cursor: not-allowed;
   }
   
+  /* TuArchivoDeEstilos.module.css */
   .list {
     display: flex;
     width: 100%;

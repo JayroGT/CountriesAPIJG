@@ -1,4 +1,4 @@
-import React , {useEffect} from "react";
+import React from "react";
 import { Card } from '../card/Card';
 import { useSelector} from "react-redux";
 
@@ -7,15 +7,13 @@ export const Cards = ({ countries }) => {
 
   const country = useSelector((state) => state.countries);
   const countriesRender = countries.length > 0 ? countries : country;
-
-  console.log(countries)
   return (
-
-    <div className={style.content}>
-        {
-                countriesRender.map((country)=>{
+    
+      <div className={style.content}>
+        { 
+                countriesRender.map((country, index)=>{
                     return (
-                    <div >
+                    <div key={index} >
                         <Card 
                         className={style.cards}
                         key={country?.id}

@@ -1,11 +1,11 @@
 import React from 'react'
 import style from './Home.module.css'
 import {Cards} from "../../components/cards/Cards";
-import {NavBar}  from "../../components/navBar/NavBar";
 import Paginated from "../../components/paginated/Paginated";
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import SearchBar from "..//../components/searchBar/SearchBar";
+import { NavBar } from '../../components/navBar/NavBar';
 
 import {
   filter,
